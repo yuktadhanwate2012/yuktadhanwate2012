@@ -72,7 +72,7 @@ public class AddCost extends BaseClass {
         commonFunctions.waitElementToBeClickable(cost.addRate);
         //enter rates
         WebElement ele1=driver.findElement(cost.enterRate);
-        ele1.sendKeys("5000");
+        ele1.sendKeys("6000");
         //click on cross
         commonFunctions.click(cost.cross);
         //click on dollar sign
