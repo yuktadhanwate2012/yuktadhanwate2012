@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true" name="D:/orangehrm-automationproject/AutomationFrameWork/src/test/java/com/actitime/automation/CreateCustomerTestNG.java">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="com.actitime.automation.DeleteCustomer">
+            <class name="com.actitime.automation.ActitimeCreateTask">
             </class>
         </classes>
     </test>
