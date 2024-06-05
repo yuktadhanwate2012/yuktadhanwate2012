@@ -19,7 +19,7 @@ public class OrangehrmLogin extends BaseClass{
     @BeforeClass
     public void setUp(String browser) throws InterruptedException {
         driver=launchBrowser(browser);
-        driver.get("https://online.actitime.com/google2");
+        driver.get("https://opensource-demo.orangehrmlive.com/");
     }
     @Test(dataProvider = "getTextData")
     public void login(Object username1,Object pasword1,Object status) throws Exception {
